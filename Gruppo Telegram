@@ -1,0 +1,6 @@
+import telegram
+
+token = "5367584755:AAFACHWYecf3jmvm3AF2qjGevUzjFrbOtaU"
+bot = telegram.Bot(token)
+
+print(bot.get_me())
